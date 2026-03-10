@@ -1,10 +1,10 @@
 [telegram]
-token = "token" # Token de autenticación para el bot de Telegram
-allowed = [
+token_prod = "token" # Token de autenticación para el bot de Telegram
+allowed_ids = [
   1,
   2,
   3,
 ] # Lista de IDs de usuarios permitidos a interactuar con el bot
 
 [gemini]
-token = "token" # Token de autenticación para la API de Gemini
+token_paid = "token" # Token de autenticación para la API de Gemini
