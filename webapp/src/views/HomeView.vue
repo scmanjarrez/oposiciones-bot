@@ -1,6 +1,6 @@
 <template>
-  <div class="min-h-screen bg-slate-900 text-slate-100">
-    <div class="max-w-3xl mx-auto px-4 py-12">
+  <div class="bg-slate-900 text-slate-100">
+    <div class="max-w-3xl mx-auto px-4 pt-6 pb-12">
       <!-- Header -->
       <div class="text-center mb-12">
         <h1 class="text-4xl font-bold text-white mb-2">Oposiciones TIC</h1>
@@ -10,8 +10,10 @@
       <!-- Mode cards -->
       <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <!-- Examen real -->
-        <button @click="$router.push('/exam')"
-          class="group bg-slate-800 hover:bg-indigo-600 border border-slate-700 hover:border-indigo-500 rounded-2xl p-6 text-left transition-all duration-200">
+        <button
+          @click="$router.push('/exam')"
+          class="group bg-slate-800 hover:bg-indigo-600 border border-slate-700 hover:border-indigo-500 rounded-2xl p-6 text-left transition-all duration-200"
+        >
           <div class="text-3xl mb-3">📝</div>
           <h2 class="text-xl font-semibold text-white mb-1">Examen Real</h2>
           <p class="text-slate-400 group-hover:text-indigo-200 text-sm">
@@ -23,8 +25,10 @@
         </button>
 
         <!-- Por bloque -->
-        <button @click="$router.push('/study/blocks')"
-          class="group bg-slate-800 hover:bg-emerald-600 border border-slate-700 hover:border-emerald-500 rounded-2xl p-6 text-left transition-all duration-200">
+        <button
+          @click="$router.push('/study/blocks')"
+          class="group bg-slate-800 hover:bg-emerald-600 border border-slate-700 hover:border-emerald-500 rounded-2xl p-6 text-left transition-all duration-200"
+        >
           <div class="text-3xl mb-3">🗂️</div>
           <h2 class="text-xl font-semibold text-white mb-1">Por Bloque</h2>
           <p class="text-slate-400 group-hover:text-emerald-200 text-sm">
@@ -36,8 +40,10 @@
         </button>
 
         <!-- Por tema -->
-        <button @click="$router.push('/study/topics')"
-          class="group bg-slate-800 hover:bg-sky-600 border border-slate-700 hover:border-sky-500 rounded-2xl p-6 text-left transition-all duration-200">
+        <button
+          @click="$router.push('/study/topics')"
+          class="group bg-slate-800 hover:bg-sky-600 border border-slate-700 hover:border-sky-500 rounded-2xl p-6 text-left transition-all duration-200"
+        >
           <div class="text-3xl mb-3">📚</div>
           <h2 class="text-xl font-semibold text-white mb-1">Por Tema</h2>
           <p class="text-slate-400 group-hover:text-sky-200 text-sm">
@@ -49,8 +55,10 @@
         </button>
 
         <!-- Por año -->
-        <button @click="$router.push('/study/years')"
-          class="group bg-slate-800 hover:bg-amber-600 border border-slate-700 hover:border-amber-500 rounded-2xl p-6 text-left transition-all duration-200">
+        <button
+          @click="$router.push('/study/years')"
+          class="group bg-slate-800 hover:bg-amber-600 border border-slate-700 hover:border-amber-500 rounded-2xl p-6 text-left transition-all duration-200"
+        >
           <div class="text-3xl mb-3">📅</div>
           <h2 class="text-xl font-semibold text-white mb-1">Por Año</h2>
           <p class="text-slate-400 group-hover:text-amber-200 text-sm">

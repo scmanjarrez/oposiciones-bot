@@ -1,6 +1,5 @@
 import { defineStore } from 'pinia'
 import { ref, computed } from 'vue'
-import { useRouter } from 'vue-router'
 
 // modes: 'exam' | 'study'
 export const useQuizStore = defineStore('quiz', () => {

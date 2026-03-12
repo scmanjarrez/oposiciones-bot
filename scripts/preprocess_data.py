@@ -10,15 +10,17 @@ Generates:
 
 import json
 import os
-from pathlib import Path
 from collections import defaultdict
+from pathlib import Path
 
 ROOT = Path(__file__).parent.parent
 DATA_FILE = ROOT / "data" / "quiz_correct.json"
 OUTPUT_DIR = ROOT / "webapp" / "public" / "data"
 
 BLOCKS = ["A1", "A2", "A3", "A4", "B1", "B2", "B3", "B4"]
-GENERAL_TOPICS = set(str(i) for i in range(1, 29))   # topics 1-28 are "generales"
+GENERAL_TOPICS = set(
+    str(i) for i in range(1, 29)
+)  # topics 1-28 are "generales"
 
 BLOCK_NAMES = {
     "A1": "Bloque A1 — Organización del Estado",
@@ -89,8 +91,12 @@ def main():
         qs_sorted = sorted(
             qs,
             key=lambda q: (
-                STATUS_ORDER.index(q.get("status", "VIGENTE")) if q.get("status") in STATUS_ORDER else 99,
-                int(q.get("topic", 0)) if str(q.get("topic", "")).isdigit() else 0,
+                STATUS_ORDER.index(q.get("status", "VIGENTE"))
+                if q.get("status") in STATUS_ORDER
+                else 99,
+                int(q.get("topic", 0))
+                if str(q.get("topic", "")).isdigit()
+                else 0,
                 q.get("year", ""),
             ),
         )
@@ -107,20 +113,34 @@ def main():
         )
         topics_meta = []
         for t in topics_in_block:
-            count = sum(1 for q in qs if str(q.get("topic", "")) == t)
-            topics_meta.append({
-                "id": t,
-                "isGeneral": t in GENERAL_TOPICS,
-                "count": count,
-            })
+            topic_qs = [q for q in qs if str(q.get("topic", "")) == t]
+            count_by_status = {
+                s: sum(1 for q in topic_qs if q.get("status") == s)
+                for s in STATUS_ORDER
+            }
+            topics_meta.append(
+                {
+                    "id": t,
+                    "isGeneral": t in GENERAL_TOPICS,
+                    "count": len(topic_qs),
+                    "countByStatus": count_by_status,
+                }
+            )
 
-        blocks_meta.append({
-            "id": block,
-            "slug": slug,
-            "name": BLOCK_NAMES.get(block, block),
-            "count": len(qs_sorted),
-            "topics": topics_meta,
-        })
+        count_by_status_block = {
+            s: sum(1 for q in qs_sorted if q.get("status") == s)
+            for s in STATUS_ORDER
+        }
+        blocks_meta.append(
+            {
+                "id": block,
+                "slug": slug,
+                "name": BLOCK_NAMES.get(block, block),
+                "count": len(qs_sorted),
+                "countByStatus": count_by_status_block,
+                "topics": topics_meta,
+            }
+        )
 
     # ------------------------------------------------------------------
     # Write year files
@@ -135,14 +155,26 @@ def main():
             qs,
             key=lambda q: (
                 q.get("block", ""),
-                int(q.get("topic", 0)) if str(q.get("topic", "")).isdigit() else 0,
+                int(q.get("topic", 0))
+                if str(q.get("topic", "")).isdigit()
+                else 0,
             ),
         )
         out_path = years_dir / f"{year}.json"
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(qs_sorted, f, ensure_ascii=False, separators=(",", ":"))
         print(f"  Wrote {out_path.name} ({len(qs_sorted)} questions)")
-        years_meta.append({"id": year, "count": len(qs_sorted)})
+        count_by_status_year = {
+            s: sum(1 for q in qs_sorted if q.get("status") == s)
+            for s in STATUS_ORDER
+        }
+        years_meta.append(
+            {
+                "id": year,
+                "count": len(qs_sorted),
+                "countByStatus": count_by_status_year,
+            }
+        )
 
     # ------------------------------------------------------------------
     # Write meta.json

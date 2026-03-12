@@ -1,0 +1,2 @@
+# Este fichero sobreescribe el .gitignore del proyecto en el branch gh-pages
+# para que la carpeta data/ generada en build time se incluya en el deploy.

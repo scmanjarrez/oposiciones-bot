@@ -1,15 +1,17 @@
 <script setup>
-import { computed } from 'vue'
+import { computed, onMounted } from 'vue'
 import { useRouter } from 'vue-router'
 import { useQuizStore } from '../stores/quiz.js'
 
 const router = useRouter()
 const quiz = useQuizStore()
 
-// Redirect if no results
-if (!quiz.finished) {
-  router.replace('/')
-}
+// Redirect if no results — inside onMounted to avoid running during router resolution
+onMounted(() => {
+  if (!quiz.finished) {
+    router.replace('/')
+  }
+})
 
 const isExam = computed(() => quiz.mode === 'exam')
 const details = computed(() => quiz.scoreDetails)
@@ -54,8 +56,8 @@ const studyPercent = computed(() => {
 </script>
 
 <template>
-  <div class="min-h-screen bg-slate-900 text-slate-100">
-    <div class="max-w-2xl mx-auto px-4 py-12">
+  <div class="bg-slate-900 text-slate-100">
+    <div class="max-w-2xl mx-auto px-4 pt-6 pb-12">
 
       <!-- Exam result banner -->
       <template v-if="isExam">
@@ -124,13 +126,17 @@ const studyPercent = computed(() => {
       </template>
 
       <!-- Wrong answers review (study mode) -->
-      <div v-if="!isExam && details.wrong > 0" class="mb-8">
+      <div
+        v-if="!isExam && details.wrong > 0"
+        class="mb-8"
+      >
         <h2 class="text-lg font-semibold text-white mb-4">Preguntas falladas</h2>
         <div class="space-y-4">
           <div
             v-for="q in quiz.questions.filter(q => quiz.answers[q.id] !== undefined && quiz.answers[q.id] !== null && quiz.answers[q.id] !== q.correct)"
             :key="q.id"
-            class="bg-slate-800 border border-slate-700 rounded-xl p-4 text-sm">
+            class="bg-slate-800 border border-slate-700 rounded-xl p-4 text-sm"
+          >
             <p class="text-slate-200 mb-3">{{ q.title }}</p>
             <!-- What you answered -->
             <div class="flex items-start gap-2 mb-1">
@@ -146,19 +152,26 @@ const studyPercent = computed(() => {
                 <strong>{{ LABELS[q.correct] }}</strong>: {{ q.answers[q.correct] }}
               </span>
             </div>
-            <div v-if="q.reason" class="mt-2 text-slate-500 italic text-xs">{{ q.reason }}</div>
+            <div
+              v-if="q.reason"
+              class="mt-2 text-slate-500 italic text-xs"
+            >{{ q.reason }}</div>
           </div>
         </div>
       </div>
 
       <!-- Exam wrong answers review -->
-      <div v-if="isExam && details.wrong > 0" class="mb-8">
+      <div
+        v-if="isExam && details.wrong > 0"
+        class="mb-8"
+      >
         <h2 class="text-lg font-semibold text-white mb-4">Preguntas incorrectas</h2>
         <div class="space-y-4">
           <div
             v-for="q in quiz.questions.filter(q => quiz.answers[q.id] !== undefined && quiz.answers[q.id] !== null && quiz.answers[q.id] !== q.correct)"
             :key="q.id"
-            class="bg-slate-800 border border-slate-700 rounded-xl p-4 text-sm">
+            class="bg-slate-800 border border-slate-700 rounded-xl p-4 text-sm"
+          >
             <div class="flex gap-2 flex-wrap mb-2">
               <span class="text-xs bg-slate-700 text-slate-400 px-2 py-0.5 rounded">{{ q.block }}</span>
               <span class="text-xs bg-slate-700 text-slate-400 px-2 py-0.5 rounded">T{{ q.topic }}</span>
@@ -182,12 +195,16 @@ const studyPercent = computed(() => {
 
       <!-- Actions -->
       <div class="flex gap-3">
-        <button @click="goHome"
-          class="flex-1 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 font-medium py-3 rounded-xl transition-colors">
+        <button
+          @click="goHome"
+          class="flex-1 bg-slate-800 hover:bg-slate-700 border border-slate-700 text-slate-300 font-medium py-3 rounded-xl transition-colors"
+        >
           Inicio
         </button>
-        <button @click="retry"
-          class="flex-1 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3 rounded-xl transition-colors">
+        <button
+          @click="retry"
+          class="flex-1 bg-indigo-600 hover:bg-indigo-500 text-white font-semibold py-3 rounded-xl transition-colors"
+        >
           Repetir
         </button>
       </div>

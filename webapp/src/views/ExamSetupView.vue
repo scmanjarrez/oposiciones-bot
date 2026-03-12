@@ -2,13 +2,18 @@
 import { useRouter } from 'vue-router'
 import { useDataStore } from '../stores/data.js'
 import { useQuizStore } from '../stores/quiz.js'
-import { onMounted, ref } from 'vue'
+import { useSettingsStore } from '../stores/settings.js'
+import { onMounted, ref, computed } from 'vue'
 
 const router = useRouter()
 const dataStore = useDataStore()
 const quizStore = useQuizStore()
+const settings = useSettingsStore()
 const loading = ref(false)
 const error = ref(null)
+
+const STATUS_LABELS = { VIGENTE: 'Vigente', DESFASADA: 'Desfasada', DEROGADA: 'Derogada', 'ERRÓNEA': 'Errónea' }
+const activeLabels = computed(() => settings.allowedStatuses.map(s => STATUS_LABELS[s] ?? s).join(', '))
 
 async function startExam() {
   loading.value = true
@@ -22,7 +27,7 @@ async function startExam() {
 
     for (const block of meta.blocks) {
       const qs = await dataStore.loadBlock(block.id)
-      const vigente = qs.filter(q => q.status === 'VIGENTE')
+      const vigente = qs.filter(q => settings.isAllowed(q.status))
       for (const q of vigente) {
         const topicNum = parseInt(q.topic)
         if (topicNum >= 1 && topicNum <= 28) {
@@ -60,13 +65,8 @@ function shuffleArray(arr) {
 </script>
 
 <template>
-  <div class="min-h-screen bg-slate-900 text-slate-100">
-    <div class="max-w-2xl mx-auto px-4 py-12">
-      <!-- Back button -->
-      <button @click="$router.push('/')" class="flex items-center gap-2 text-slate-400 hover:text-white mb-8 transition-colors">
-        ← Volver
-      </button>
-
+  <div class="bg-slate-900 text-slate-100">
+    <div class="max-w-2xl mx-auto px-4 pt-6 pb-12">
       <h1 class="text-3xl font-bold text-white mb-8">📝 Simulacro de Examen</h1>
 
       <!-- Info cards -->
@@ -112,15 +112,23 @@ function shuffleArray(arr) {
 
       <!-- Important notes -->
       <div class="bg-indigo-950 border border-indigo-800 rounded-xl p-4 mb-8 text-sm text-indigo-200">
-        <strong class="text-indigo-300">Nota:</strong> Se usarán preguntas con estado <span class="text-green-400 font-medium">VIGENTE</span> seleccionadas aleatoriamente del banco completo.
+        <strong class="text-indigo-300">Nota:</strong> Se incluirán preguntas con estado
+        <span class="font-medium text-indigo-300">{{ activeLabels }}</span>,
+        seleccionadas aleatoriamente del banco completo. Puedes cambiar los filtros desde el menú ☰.
       </div>
 
-      <div v-if="error" class="bg-red-900/50 border border-red-700 rounded-xl p-4 mb-6 text-red-300 text-sm">
+      <div
+        v-if="error"
+        class="bg-red-900/50 border border-red-700 rounded-xl p-4 mb-6 text-red-300 text-sm"
+      >
         Error al cargar las preguntas: {{ error }}
       </div>
 
-      <button @click="startExam" :disabled="loading"
-        class="w-full bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold py-4 rounded-xl text-lg transition-colors">
+      <button
+        @click="startExam"
+        :disabled="loading"
+        class="w-full bg-indigo-600 hover:bg-indigo-500 disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold py-4 rounded-xl text-lg transition-colors"
+      >
         {{ loading ? 'Cargando preguntas…' : '🚀 Empezar examen' }}
       </button>
     </div>
