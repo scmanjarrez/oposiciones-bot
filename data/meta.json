@@ -1,0 +1,827 @@
+{
+  "blocks": [
+    {
+      "id": "A1",
+      "slug": "a1",
+      "name": "Bloque A1 — Organización del Estado",
+      "count": 645,
+      "topics": [
+        {
+          "id": "1",
+          "isGeneral": true,
+          "count": 210
+        },
+        {
+          "id": "2",
+          "isGeneral": true,
+          "count": 66
+        },
+        {
+          "id": "3",
+          "isGeneral": true,
+          "count": 107
+        },
+        {
+          "id": "4",
+          "isGeneral": true,
+          "count": 55
+        },
+        {
+          "id": "5",
+          "isGeneral": true,
+          "count": 169
+        },
+        {
+          "id": "6",
+          "isGeneral": true,
+          "count": 38
+        }
+      ]
+    },
+    {
+      "id": "A2",
+      "slug": "a2",
+      "name": "Bloque A2 — Administración General del Estado",
+      "count": 788,
+      "topics": [
+        {
+          "id": "7",
+          "isGeneral": true,
+          "count": 39
+        },
+        {
+          "id": "8",
+          "isGeneral": true,
+          "count": 330
+        },
+        {
+          "id": "9",
+          "isGeneral": true,
+          "count": 62
+        },
+        {
+          "id": "10",
+          "isGeneral": true,
+          "count": 21
+        },
+        {
+          "id": "11",
+          "isGeneral": true,
+          "count": 200
+        },
+        {
+          "id": "12",
+          "isGeneral": true,
+          "count": 90
+        },
+        {
+          "id": "13",
+          "isGeneral": true,
+          "count": 46
+        }
+      ]
+    },
+    {
+      "id": "A3",
+      "slug": "a3",
+      "name": "Bloque A3 — Unión Europea",
+      "count": 385,
+      "topics": [
+        {
+          "id": "14",
+          "isGeneral": true,
+          "count": 76
+        },
+        {
+          "id": "15",
+          "isGeneral": true,
+          "count": 51
+        },
+        {
+          "id": "16",
+          "isGeneral": true,
+          "count": 116
+        },
+        {
+          "id": "17",
+          "isGeneral": true,
+          "count": 64
+        },
+        {
+          "id": "18",
+          "isGeneral": true,
+          "count": 44
+        },
+        {
+          "id": "19",
+          "isGeneral": true,
+          "count": 34
+        }
+      ]
+    },
+    {
+      "id": "A4",
+      "slug": "a4",
+      "name": "Bloque A4 — Régimen jurídico",
+      "count": 628,
+      "topics": [
+        {
+          "id": "20",
+          "isGeneral": true,
+          "count": 16
+        },
+        {
+          "id": "21",
+          "isGeneral": true,
+          "count": 31
+        },
+        {
+          "id": "22",
+          "isGeneral": true,
+          "count": 173
+        },
+        {
+          "id": "23",
+          "isGeneral": true,
+          "count": 13
+        },
+        {
+          "id": "24",
+          "isGeneral": true,
+          "count": 85
+        },
+        {
+          "id": "25",
+          "isGeneral": true,
+          "count": 96
+        },
+        {
+          "id": "26",
+          "isGeneral": true,
+          "count": 40
+        },
+        {
+          "id": "27",
+          "isGeneral": true,
+          "count": 174
+        }
+      ]
+    },
+    {
+      "id": "B1",
+      "slug": "b1",
+      "name": "Bloque B1 — Tecnologías de la Información",
+      "count": 2070,
+      "topics": [
+        {
+          "id": "28",
+          "isGeneral": true,
+          "count": 66
+        },
+        {
+          "id": "29",
+          "isGeneral": false,
+          "count": 28
+        },
+        {
+          "id": "30",
+          "isGeneral": false,
+          "count": 68
+        },
+        {
+          "id": "31",
+          "isGeneral": false,
+          "count": 46
+        },
+        {
+          "id": "32",
+          "isGeneral": false,
+          "count": 31
+        },
+        {
+          "id": "33",
+          "isGeneral": false,
+          "count": 48
+        },
+        {
+          "id": "34",
+          "isGeneral": false,
+          "count": 76
+        },
+        {
+          "id": "35",
+          "isGeneral": false,
+          "count": 84
+        },
+        {
+          "id": "36",
+          "isGeneral": false,
+          "count": 66
+        },
+        {
+          "id": "37",
+          "isGeneral": false,
+          "count": 59
+        },
+        {
+          "id": "38",
+          "isGeneral": false,
+          "count": 125
+        },
+        {
+          "id": "39",
+          "isGeneral": false,
+          "count": 70
+        },
+        {
+          "id": "40",
+          "isGeneral": false,
+          "count": 75
+        },
+        {
+          "id": "41",
+          "isGeneral": false,
+          "count": 46
+        },
+        {
+          "id": "42",
+          "isGeneral": false,
+          "count": 51
+        },
+        {
+          "id": "43",
+          "isGeneral": false,
+          "count": 122
+        },
+        {
+          "id": "44",
+          "isGeneral": false,
+          "count": 134
+        },
+        {
+          "id": "45",
+          "isGeneral": false,
+          "count": 105
+        },
+        {
+          "id": "46",
+          "isGeneral": false,
+          "count": 119
+        },
+        {
+          "id": "47",
+          "isGeneral": false,
+          "count": 168
+        },
+        {
+          "id": "48",
+          "isGeneral": false,
+          "count": 175
+        },
+        {
+          "id": "49",
+          "isGeneral": false,
+          "count": 147
+        },
+        {
+          "id": "50",
+          "isGeneral": false,
+          "count": 117
+        },
+        {
+          "id": "51",
+          "isGeneral": false,
+          "count": 44
+        }
+      ]
+    },
+    {
+      "id": "B2",
+      "slug": "b2",
+      "name": "Bloque B2 — Desarrollo de Sistemas",
+      "count": 4730,
+      "topics": [
+        {
+          "id": "52",
+          "isGeneral": false,
+          "count": 135
+        },
+        {
+          "id": "53",
+          "isGeneral": false,
+          "count": 91
+        },
+        {
+          "id": "54",
+          "isGeneral": false,
+          "count": 137
+        },
+        {
+          "id": "55",
+          "isGeneral": false,
+          "count": 99
+        },
+        {
+          "id": "56",
+          "isGeneral": false,
+          "count": 244
+        },
+        {
+          "id": "57",
+          "isGeneral": false,
+          "count": 28
+        },
+        {
+          "id": "58",
+          "isGeneral": false,
+          "count": 188
+        },
+        {
+          "id": "59",
+          "isGeneral": false,
+          "count": 217
+        },
+        {
+          "id": "60",
+          "isGeneral": false,
+          "count": 293
+        },
+        {
+          "id": "61",
+          "isGeneral": false,
+          "count": 99
+        },
+        {
+          "id": "62",
+          "isGeneral": false,
+          "count": 65
+        },
+        {
+          "id": "63",
+          "isGeneral": false,
+          "count": 172
+        },
+        {
+          "id": "64",
+          "isGeneral": false,
+          "count": 287
+        },
+        {
+          "id": "65",
+          "isGeneral": false,
+          "count": 176
+        },
+        {
+          "id": "66",
+          "isGeneral": false,
+          "count": 142
+        },
+        {
+          "id": "67",
+          "isGeneral": false,
+          "count": 345
+        },
+        {
+          "id": "68",
+          "isGeneral": false,
+          "count": 38
+        },
+        {
+          "id": "69",
+          "isGeneral": false,
+          "count": 136
+        },
+        {
+          "id": "70",
+          "isGeneral": false,
+          "count": 184
+        },
+        {
+          "id": "71",
+          "isGeneral": false,
+          "count": 82
+        },
+        {
+          "id": "72",
+          "isGeneral": false,
+          "count": 61
+        },
+        {
+          "id": "73",
+          "isGeneral": false,
+          "count": 71
+        },
+        {
+          "id": "74",
+          "isGeneral": false,
+          "count": 147
+        },
+        {
+          "id": "75",
+          "isGeneral": false,
+          "count": 182
+        },
+        {
+          "id": "76",
+          "isGeneral": false,
+          "count": 19
+        },
+        {
+          "id": "77",
+          "isGeneral": false,
+          "count": 187
+        },
+        {
+          "id": "78",
+          "isGeneral": false,
+          "count": 70
+        },
+        {
+          "id": "79",
+          "isGeneral": false,
+          "count": 205
+        },
+        {
+          "id": "80",
+          "isGeneral": false,
+          "count": 213
+        },
+        {
+          "id": "81",
+          "isGeneral": false,
+          "count": 146
+        },
+        {
+          "id": "82",
+          "isGeneral": false,
+          "count": 35
+        },
+        {
+          "id": "83",
+          "isGeneral": false,
+          "count": 100
+        },
+        {
+          "id": "84",
+          "isGeneral": false,
+          "count": 70
+        },
+        {
+          "id": "85",
+          "isGeneral": false,
+          "count": 66
+        }
+      ]
+    },
+    {
+      "id": "B3",
+      "slug": "b3",
+      "name": "Bloque B3 — Sistemas y Comunicaciones",
+      "count": 2947,
+      "topics": [
+        {
+          "id": "86",
+          "isGeneral": false,
+          "count": 175
+        },
+        {
+          "id": "87",
+          "isGeneral": false,
+          "count": 58
+        },
+        {
+          "id": "88",
+          "isGeneral": false,
+          "count": 222
+        },
+        {
+          "id": "89",
+          "isGeneral": false,
+          "count": 284
+        },
+        {
+          "id": "90",
+          "isGeneral": false,
+          "count": 144
+        },
+        {
+          "id": "91",
+          "isGeneral": false,
+          "count": 15
+        },
+        {
+          "id": "92",
+          "isGeneral": false,
+          "count": 145
+        },
+        {
+          "id": "93",
+          "isGeneral": false,
+          "count": 152
+        },
+        {
+          "id": "94",
+          "isGeneral": false,
+          "count": 58
+        },
+        {
+          "id": "95",
+          "isGeneral": false,
+          "count": 459
+        },
+        {
+          "id": "96",
+          "isGeneral": false,
+          "count": 180
+        },
+        {
+          "id": "97",
+          "isGeneral": false,
+          "count": 44
+        },
+        {
+          "id": "98",
+          "isGeneral": false,
+          "count": 143
+        },
+        {
+          "id": "99",
+          "isGeneral": false,
+          "count": 104
+        },
+        {
+          "id": "100",
+          "isGeneral": false,
+          "count": 40
+        },
+        {
+          "id": "101",
+          "isGeneral": false,
+          "count": 64
+        },
+        {
+          "id": "102",
+          "isGeneral": false,
+          "count": 91
+        },
+        {
+          "id": "103",
+          "isGeneral": false,
+          "count": 118
+        },
+        {
+          "id": "104",
+          "isGeneral": false,
+          "count": 87
+        },
+        {
+          "id": "105",
+          "isGeneral": false,
+          "count": 64
+        },
+        {
+          "id": "106",
+          "isGeneral": false,
+          "count": 275
+        },
+        {
+          "id": "107",
+          "isGeneral": false,
+          "count": 25
+        }
+      ]
+    },
+    {
+      "id": "B4",
+      "slug": "b4",
+      "name": "Bloque B4 — Seguridad y Auditoría",
+      "count": 3462,
+      "topics": [
+        {
+          "id": "108",
+          "isGeneral": false,
+          "count": 229
+        },
+        {
+          "id": "109",
+          "isGeneral": false,
+          "count": 163
+        },
+        {
+          "id": "110",
+          "isGeneral": false,
+          "count": 182
+        },
+        {
+          "id": "111",
+          "isGeneral": false,
+          "count": 200
+        },
+        {
+          "id": "112",
+          "isGeneral": false,
+          "count": 98
+        },
+        {
+          "id": "113",
+          "isGeneral": false,
+          "count": 129
+        },
+        {
+          "id": "114",
+          "isGeneral": false,
+          "count": 238
+        },
+        {
+          "id": "115",
+          "isGeneral": false,
+          "count": 353
+        },
+        {
+          "id": "116",
+          "isGeneral": false,
+          "count": 98
+        },
+        {
+          "id": "117",
+          "isGeneral": false,
+          "count": 71
+        },
+        {
+          "id": "118",
+          "isGeneral": false,
+          "count": 238
+        },
+        {
+          "id": "119",
+          "isGeneral": false,
+          "count": 55
+        },
+        {
+          "id": "120",
+          "isGeneral": false,
+          "count": 140
+        },
+        {
+          "id": "121",
+          "isGeneral": false,
+          "count": 73
+        },
+        {
+          "id": "122",
+          "isGeneral": false,
+          "count": 109
+        },
+        {
+          "id": "123",
+          "isGeneral": false,
+          "count": 218
+        },
+        {
+          "id": "124",
+          "isGeneral": false,
+          "count": 47
+        },
+        {
+          "id": "125",
+          "isGeneral": false,
+          "count": 188
+        },
+        {
+          "id": "126",
+          "isGeneral": false,
+          "count": 145
+        },
+        {
+          "id": "127",
+          "isGeneral": false,
+          "count": 46
+        },
+        {
+          "id": "128",
+          "isGeneral": false,
+          "count": 92
+        },
+        {
+          "id": "129",
+          "isGeneral": false,
+          "count": 24
+        },
+        {
+          "id": "130",
+          "isGeneral": false,
+          "count": 87
+        },
+        {
+          "id": "131",
+          "isGeneral": false,
+          "count": 70
+        },
+        {
+          "id": "132",
+          "isGeneral": false,
+          "count": 88
+        },
+        {
+          "id": "133",
+          "isGeneral": false,
+          "count": 81
+        }
+      ]
+    }
+  ],
+  "years": [
+    {
+      "id": "2001",
+      "count": 5
+    },
+    {
+      "id": "2002",
+      "count": 1800
+    },
+    {
+      "id": "2003",
+      "count": 750
+    },
+    {
+      "id": "2004",
+      "count": 323
+    },
+    {
+      "id": "2005",
+      "count": 14
+    },
+    {
+      "id": "2006",
+      "count": 531
+    },
+    {
+      "id": "2007",
+      "count": 453
+    },
+    {
+      "id": "2009",
+      "count": 162
+    },
+    {
+      "id": "2010",
+      "count": 871
+    },
+    {
+      "id": "2011",
+      "count": 588
+    },
+    {
+      "id": "2012",
+      "count": 1
+    },
+    {
+      "id": "2013",
+      "count": 382
+    },
+    {
+      "id": "2014",
+      "count": 673
+    },
+    {
+      "id": "2015",
+      "count": 954
+    },
+    {
+      "id": "2016",
+      "count": 1620
+    },
+    {
+      "id": "2018",
+      "count": 39
+    },
+    {
+      "id": "2019",
+      "count": 698
+    },
+    {
+      "id": "2020",
+      "count": 1644
+    },
+    {
+      "id": "2021",
+      "count": 1805
+    },
+    {
+      "id": "2023",
+      "count": 1560
+    },
+    {
+      "id": "2024",
+      "count": 782
+    }
+  ],
+  "totals": {
+    "questions": 15655,
+    "generalTopics": 28,
+    "examGeneralCount": 30,
+    "examSpecificCount": 100,
+    "examPassScore": 45.5,
+    "examDurationSeconds": 7200
+  }
+}
