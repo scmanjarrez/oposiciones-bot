@@ -5,36 +5,78 @@
       "slug": "a1",
       "name": "Bloque A1 — Organización del Estado",
       "count": 645,
+      "countByStatus": {
+        "VIGENTE": 565,
+        "DESFASADA": 17,
+        "DEROGADA": 15,
+        "ERRÓNEA": 48
+      },
       "topics": [
         {
           "id": "1",
           "isGeneral": true,
-          "count": 210
+          "count": 210,
+          "countByStatus": {
+            "VIGENTE": 193,
+            "DESFASADA": 0,
+            "DEROGADA": 1,
+            "ERRÓNEA": 16
+          }
         },
         {
           "id": "2",
           "isGeneral": true,
-          "count": 66
+          "count": 66,
+          "countByStatus": {
+            "VIGENTE": 58,
+            "DESFASADA": 0,
+            "DEROGADA": 2,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "3",
           "isGeneral": true,
-          "count": 107
+          "count": 107,
+          "countByStatus": {
+            "VIGENTE": 95,
+            "DESFASADA": 0,
+            "DEROGADA": 6,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "4",
           "isGeneral": true,
-          "count": 55
+          "count": 55,
+          "countByStatus": {
+            "VIGENTE": 46,
+            "DESFASADA": 1,
+            "DEROGADA": 4,
+            "ERRÓNEA": 4
+          }
         },
         {
           "id": "5",
           "isGeneral": true,
-          "count": 169
+          "count": 169,
+          "countByStatus": {
+            "VIGENTE": 144,
+            "DESFASADA": 14,
+            "DEROGADA": 2,
+            "ERRÓNEA": 9
+          }
         },
         {
           "id": "6",
           "isGeneral": true,
-          "count": 38
+          "count": 38,
+          "countByStatus": {
+            "VIGENTE": 29,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 7
+          }
         }
       ]
     },
@@ -43,41 +85,89 @@
       "slug": "a2",
       "name": "Bloque A2 — Administración General del Estado",
       "count": 788,
+      "countByStatus": {
+        "VIGENTE": 662,
+        "DESFASADA": 29,
+        "DEROGADA": 21,
+        "ERRÓNEA": 76
+      },
       "topics": [
         {
           "id": "7",
           "isGeneral": true,
-          "count": 39
+          "count": 39,
+          "countByStatus": {
+            "VIGENTE": 36,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "8",
           "isGeneral": true,
-          "count": 330
+          "count": 330,
+          "countByStatus": {
+            "VIGENTE": 277,
+            "DESFASADA": 3,
+            "DEROGADA": 11,
+            "ERRÓNEA": 39
+          }
         },
         {
           "id": "9",
           "isGeneral": true,
-          "count": 62
+          "count": 62,
+          "countByStatus": {
+            "VIGENTE": 56,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 5
+          }
         },
         {
           "id": "10",
           "isGeneral": true,
-          "count": 21
+          "count": 21,
+          "countByStatus": {
+            "VIGENTE": 18,
+            "DESFASADA": 0,
+            "DEROGADA": 1,
+            "ERRÓNEA": 2
+          }
         },
         {
           "id": "11",
           "isGeneral": true,
-          "count": 200
+          "count": 200,
+          "countByStatus": {
+            "VIGENTE": 155,
+            "DESFASADA": 21,
+            "DEROGADA": 5,
+            "ERRÓNEA": 19
+          }
         },
         {
           "id": "12",
           "isGeneral": true,
-          "count": 90
+          "count": 90,
+          "countByStatus": {
+            "VIGENTE": 82,
+            "DESFASADA": 3,
+            "DEROGADA": 1,
+            "ERRÓNEA": 4
+          }
         },
         {
           "id": "13",
           "isGeneral": true,
-          "count": 46
+          "count": 46,
+          "countByStatus": {
+            "VIGENTE": 38,
+            "DESFASADA": 1,
+            "DEROGADA": 3,
+            "ERRÓNEA": 4
+          }
         }
       ]
     },
@@ -86,36 +176,78 @@
       "slug": "a3",
       "name": "Bloque A3 — Unión Europea",
       "count": 385,
+      "countByStatus": {
+        "VIGENTE": 263,
+        "DESFASADA": 96,
+        "DEROGADA": 6,
+        "ERRÓNEA": 20
+      },
       "topics": [
         {
           "id": "14",
           "isGeneral": true,
-          "count": 76
+          "count": 76,
+          "countByStatus": {
+            "VIGENTE": 52,
+            "DESFASADA": 14,
+            "DEROGADA": 2,
+            "ERRÓNEA": 8
+          }
         },
         {
           "id": "15",
           "isGeneral": true,
-          "count": 51
+          "count": 51,
+          "countByStatus": {
+            "VIGENTE": 27,
+            "DESFASADA": 24,
+            "DEROGADA": 0,
+            "ERRÓNEA": 0
+          }
         },
         {
           "id": "16",
           "isGeneral": true,
-          "count": 116
+          "count": 116,
+          "countByStatus": {
+            "VIGENTE": 103,
+            "DESFASADA": 8,
+            "DEROGADA": 2,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "17",
           "isGeneral": true,
-          "count": 64
+          "count": 64,
+          "countByStatus": {
+            "VIGENTE": 49,
+            "DESFASADA": 7,
+            "DEROGADA": 2,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "18",
           "isGeneral": true,
-          "count": 44
+          "count": 44,
+          "countByStatus": {
+            "VIGENTE": 23,
+            "DESFASADA": 19,
+            "DEROGADA": 0,
+            "ERRÓNEA": 2
+          }
         },
         {
           "id": "19",
           "isGeneral": true,
-          "count": 34
+          "count": 34,
+          "countByStatus": {
+            "VIGENTE": 9,
+            "DESFASADA": 24,
+            "DEROGADA": 0,
+            "ERRÓNEA": 1
+          }
         }
       ]
     },
@@ -124,46 +256,100 @@
       "slug": "a4",
       "name": "Bloque A4 — Régimen jurídico",
       "count": 628,
+      "countByStatus": {
+        "VIGENTE": 509,
+        "DESFASADA": 51,
+        "DEROGADA": 29,
+        "ERRÓNEA": 39
+      },
       "topics": [
         {
           "id": "20",
           "isGeneral": true,
-          "count": 16
+          "count": 16,
+          "countByStatus": {
+            "VIGENTE": 13,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 2
+          }
         },
         {
           "id": "21",
           "isGeneral": true,
-          "count": 31
+          "count": 31,
+          "countByStatus": {
+            "VIGENTE": 27,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "22",
           "isGeneral": true,
-          "count": 173
+          "count": 173,
+          "countByStatus": {
+            "VIGENTE": 116,
+            "DESFASADA": 31,
+            "DEROGADA": 18,
+            "ERRÓNEA": 8
+          }
         },
         {
           "id": "23",
           "isGeneral": true,
-          "count": 13
+          "count": 13,
+          "countByStatus": {
+            "VIGENTE": 12,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 1
+          }
         },
         {
           "id": "24",
           "isGeneral": true,
-          "count": 85
+          "count": 85,
+          "countByStatus": {
+            "VIGENTE": 74,
+            "DESFASADA": 5,
+            "DEROGADA": 0,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "25",
           "isGeneral": true,
-          "count": 96
+          "count": 96,
+          "countByStatus": {
+            "VIGENTE": 87,
+            "DESFASADA": 3,
+            "DEROGADA": 2,
+            "ERRÓNEA": 4
+          }
         },
         {
           "id": "26",
           "isGeneral": true,
-          "count": 40
+          "count": 40,
+          "countByStatus": {
+            "VIGENTE": 28,
+            "DESFASADA": 3,
+            "DEROGADA": 2,
+            "ERRÓNEA": 7
+          }
         },
         {
           "id": "27",
           "isGeneral": true,
-          "count": 174
+          "count": 174,
+          "countByStatus": {
+            "VIGENTE": 152,
+            "DESFASADA": 7,
+            "DEROGADA": 7,
+            "ERRÓNEA": 8
+          }
         }
       ]
     },
@@ -172,126 +358,276 @@
       "slug": "b1",
       "name": "Bloque B1 — Tecnologías de la Información",
       "count": 2070,
+      "countByStatus": {
+        "VIGENTE": 1741,
+        "DESFASADA": 103,
+        "DEROGADA": 78,
+        "ERRÓNEA": 148
+      },
       "topics": [
         {
           "id": "28",
           "isGeneral": true,
-          "count": 66
+          "count": 66,
+          "countByStatus": {
+            "VIGENTE": 62,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "29",
           "isGeneral": false,
-          "count": 28
+          "count": 28,
+          "countByStatus": {
+            "VIGENTE": 26,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 2
+          }
         },
         {
           "id": "30",
           "isGeneral": false,
-          "count": 68
+          "count": 68,
+          "countByStatus": {
+            "VIGENTE": 40,
+            "DESFASADA": 11,
+            "DEROGADA": 14,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "31",
           "isGeneral": false,
-          "count": 46
+          "count": 46,
+          "countByStatus": {
+            "VIGENTE": 34,
+            "DESFASADA": 1,
+            "DEROGADA": 10,
+            "ERRÓNEA": 1
+          }
         },
         {
           "id": "32",
           "isGeneral": false,
-          "count": 31
+          "count": 31,
+          "countByStatus": {
+            "VIGENTE": 24,
+            "DESFASADA": 5,
+            "DEROGADA": 2,
+            "ERRÓNEA": 0
+          }
         },
         {
           "id": "33",
           "isGeneral": false,
-          "count": 48
+          "count": 48,
+          "countByStatus": {
+            "VIGENTE": 47,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 1
+          }
         },
         {
           "id": "34",
           "isGeneral": false,
-          "count": 76
+          "count": 76,
+          "countByStatus": {
+            "VIGENTE": 69,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "35",
           "isGeneral": false,
-          "count": 84
+          "count": 84,
+          "countByStatus": {
+            "VIGENTE": 76,
+            "DESFASADA": 1,
+            "DEROGADA": 1,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "36",
           "isGeneral": false,
-          "count": 66
+          "count": 66,
+          "countByStatus": {
+            "VIGENTE": 59,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "37",
           "isGeneral": false,
-          "count": 59
+          "count": 59,
+          "countByStatus": {
+            "VIGENTE": 57,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 1
+          }
         },
         {
           "id": "38",
           "isGeneral": false,
-          "count": 125
+          "count": 125,
+          "countByStatus": {
+            "VIGENTE": 109,
+            "DESFASADA": 2,
+            "DEROGADA": 4,
+            "ERRÓNEA": 10
+          }
         },
         {
           "id": "39",
           "isGeneral": false,
-          "count": 70
+          "count": 70,
+          "countByStatus": {
+            "VIGENTE": 50,
+            "DESFASADA": 8,
+            "DEROGADA": 9,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "40",
           "isGeneral": false,
-          "count": 75
+          "count": 75,
+          "countByStatus": {
+            "VIGENTE": 69,
+            "DESFASADA": 3,
+            "DEROGADA": 0,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "41",
           "isGeneral": false,
-          "count": 46
+          "count": 46,
+          "countByStatus": {
+            "VIGENTE": 39,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "42",
           "isGeneral": false,
-          "count": 51
+          "count": 51,
+          "countByStatus": {
+            "VIGENTE": 46,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "43",
           "isGeneral": false,
-          "count": 122
+          "count": 122,
+          "countByStatus": {
+            "VIGENTE": 109,
+            "DESFASADA": 1,
+            "DEROGADA": 1,
+            "ERRÓNEA": 11
+          }
         },
         {
           "id": "44",
           "isGeneral": false,
-          "count": 134
+          "count": 134,
+          "countByStatus": {
+            "VIGENTE": 120,
+            "DESFASADA": 4,
+            "DEROGADA": 1,
+            "ERRÓNEA": 9
+          }
         },
         {
           "id": "45",
           "isGeneral": false,
-          "count": 105
+          "count": 105,
+          "countByStatus": {
+            "VIGENTE": 90,
+            "DESFASADA": 4,
+            "DEROGADA": 2,
+            "ERRÓNEA": 9
+          }
         },
         {
           "id": "46",
           "isGeneral": false,
-          "count": 119
+          "count": 119,
+          "countByStatus": {
+            "VIGENTE": 101,
+            "DESFASADA": 5,
+            "DEROGADA": 6,
+            "ERRÓNEA": 7
+          }
         },
         {
           "id": "47",
           "isGeneral": false,
-          "count": 168
+          "count": 168,
+          "countByStatus": {
+            "VIGENTE": 144,
+            "DESFASADA": 10,
+            "DEROGADA": 0,
+            "ERRÓNEA": 14
+          }
         },
         {
           "id": "48",
           "isGeneral": false,
-          "count": 175
+          "count": 175,
+          "countByStatus": {
+            "VIGENTE": 125,
+            "DESFASADA": 9,
+            "DEROGADA": 19,
+            "ERRÓNEA": 22
+          }
         },
         {
           "id": "49",
           "isGeneral": false,
-          "count": 147
+          "count": 147,
+          "countByStatus": {
+            "VIGENTE": 117,
+            "DESFASADA": 15,
+            "DEROGADA": 6,
+            "ERRÓNEA": 9
+          }
         },
         {
           "id": "50",
           "isGeneral": false,
-          "count": 117
+          "count": 117,
+          "countByStatus": {
+            "VIGENTE": 101,
+            "DESFASADA": 5,
+            "DEROGADA": 2,
+            "ERRÓNEA": 9
+          }
         },
         {
           "id": "51",
           "isGeneral": false,
-          "count": 44
+          "count": 44,
+          "countByStatus": {
+            "VIGENTE": 27,
+            "DESFASADA": 12,
+            "DEROGADA": 1,
+            "ERRÓNEA": 4
+          }
         }
       ]
     },
@@ -300,176 +636,386 @@
       "slug": "b2",
       "name": "Bloque B2 — Desarrollo de Sistemas",
       "count": 4730,
+      "countByStatus": {
+        "VIGENTE": 4241,
+        "DESFASADA": 171,
+        "DEROGADA": 16,
+        "ERRÓNEA": 302
+      },
       "topics": [
         {
           "id": "52",
           "isGeneral": false,
-          "count": 135
+          "count": 135,
+          "countByStatus": {
+            "VIGENTE": 121,
+            "DESFASADA": 3,
+            "DEROGADA": 0,
+            "ERRÓNEA": 11
+          }
         },
         {
           "id": "53",
           "isGeneral": false,
-          "count": 91
+          "count": 91,
+          "countByStatus": {
+            "VIGENTE": 81,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 10
+          }
         },
         {
           "id": "54",
           "isGeneral": false,
-          "count": 137
+          "count": 137,
+          "countByStatus": {
+            "VIGENTE": 119,
+            "DESFASADA": 10,
+            "DEROGADA": 0,
+            "ERRÓNEA": 8
+          }
         },
         {
           "id": "55",
           "isGeneral": false,
-          "count": 99
+          "count": 99,
+          "countByStatus": {
+            "VIGENTE": 95,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "56",
           "isGeneral": false,
-          "count": 244
+          "count": 244,
+          "countByStatus": {
+            "VIGENTE": 218,
+            "DESFASADA": 8,
+            "DEROGADA": 0,
+            "ERRÓNEA": 18
+          }
         },
         {
           "id": "57",
           "isGeneral": false,
-          "count": 28
+          "count": 28,
+          "countByStatus": {
+            "VIGENTE": 27,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 0
+          }
         },
         {
           "id": "58",
           "isGeneral": false,
-          "count": 188
+          "count": 188,
+          "countByStatus": {
+            "VIGENTE": 179,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 9
+          }
         },
         {
           "id": "59",
           "isGeneral": false,
-          "count": 217
+          "count": 217,
+          "countByStatus": {
+            "VIGENTE": 199,
+            "DESFASADA": 4,
+            "DEROGADA": 0,
+            "ERRÓNEA": 14
+          }
         },
         {
           "id": "60",
           "isGeneral": false,
-          "count": 293
+          "count": 293,
+          "countByStatus": {
+            "VIGENTE": 258,
+            "DESFASADA": 15,
+            "DEROGADA": 0,
+            "ERRÓNEA": 20
+          }
         },
         {
           "id": "61",
           "isGeneral": false,
-          "count": 99
+          "count": 99,
+          "countByStatus": {
+            "VIGENTE": 87,
+            "DESFASADA": 5,
+            "DEROGADA": 0,
+            "ERRÓNEA": 7
+          }
         },
         {
           "id": "62",
           "isGeneral": false,
-          "count": 65
+          "count": 65,
+          "countByStatus": {
+            "VIGENTE": 62,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 2
+          }
         },
         {
           "id": "63",
           "isGeneral": false,
-          "count": 172
+          "count": 172,
+          "countByStatus": {
+            "VIGENTE": 157,
+            "DESFASADA": 6,
+            "DEROGADA": 0,
+            "ERRÓNEA": 9
+          }
         },
         {
           "id": "64",
           "isGeneral": false,
-          "count": 287
+          "count": 287,
+          "countByStatus": {
+            "VIGENTE": 258,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 27
+          }
         },
         {
           "id": "65",
           "isGeneral": false,
-          "count": 176
+          "count": 176,
+          "countByStatus": {
+            "VIGENTE": 155,
+            "DESFASADA": 13,
+            "DEROGADA": 0,
+            "ERRÓNEA": 8
+          }
         },
         {
           "id": "66",
           "isGeneral": false,
-          "count": 142
+          "count": 142,
+          "countByStatus": {
+            "VIGENTE": 130,
+            "DESFASADA": 5,
+            "DEROGADA": 0,
+            "ERRÓNEA": 7
+          }
         },
         {
           "id": "67",
           "isGeneral": false,
-          "count": 345
+          "count": 345,
+          "countByStatus": {
+            "VIGENTE": 284,
+            "DESFASADA": 36,
+            "DEROGADA": 0,
+            "ERRÓNEA": 25
+          }
         },
         {
           "id": "68",
           "isGeneral": false,
-          "count": 38
+          "count": 38,
+          "countByStatus": {
+            "VIGENTE": 36,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 1
+          }
         },
         {
           "id": "69",
           "isGeneral": false,
-          "count": 136
+          "count": 136,
+          "countByStatus": {
+            "VIGENTE": 127,
+            "DESFASADA": 3,
+            "DEROGADA": 0,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "70",
           "isGeneral": false,
-          "count": 184
+          "count": 184,
+          "countByStatus": {
+            "VIGENTE": 171,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 11
+          }
         },
         {
           "id": "71",
           "isGeneral": false,
-          "count": 82
+          "count": 82,
+          "countByStatus": {
+            "VIGENTE": 75,
+            "DESFASADA": 3,
+            "DEROGADA": 0,
+            "ERRÓNEA": 4
+          }
         },
         {
           "id": "72",
           "isGeneral": false,
-          "count": 61
+          "count": 61,
+          "countByStatus": {
+            "VIGENTE": 54,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "73",
           "isGeneral": false,
-          "count": 71
+          "count": 71,
+          "countByStatus": {
+            "VIGENTE": 59,
+            "DESFASADA": 5,
+            "DEROGADA": 0,
+            "ERRÓNEA": 7
+          }
         },
         {
           "id": "74",
           "isGeneral": false,
-          "count": 147
+          "count": 147,
+          "countByStatus": {
+            "VIGENTE": 133,
+            "DESFASADA": 4,
+            "DEROGADA": 1,
+            "ERRÓNEA": 9
+          }
         },
         {
           "id": "75",
           "isGeneral": false,
-          "count": 182
+          "count": 182,
+          "countByStatus": {
+            "VIGENTE": 169,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 11
+          }
         },
         {
           "id": "76",
           "isGeneral": false,
-          "count": 19
+          "count": 19,
+          "countByStatus": {
+            "VIGENTE": 19,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 0
+          }
         },
         {
           "id": "77",
           "isGeneral": false,
-          "count": 187
+          "count": 187,
+          "countByStatus": {
+            "VIGENTE": 177,
+            "DESFASADA": 5,
+            "DEROGADA": 0,
+            "ERRÓNEA": 5
+          }
         },
         {
           "id": "78",
           "isGeneral": false,
-          "count": 70
+          "count": 70,
+          "countByStatus": {
+            "VIGENTE": 52,
+            "DESFASADA": 6,
+            "DEROGADA": 6,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "79",
           "isGeneral": false,
-          "count": 205
+          "count": 205,
+          "countByStatus": {
+            "VIGENTE": 187,
+            "DESFASADA": 5,
+            "DEROGADA": 0,
+            "ERRÓNEA": 13
+          }
         },
         {
           "id": "80",
           "isGeneral": false,
-          "count": 213
+          "count": 213,
+          "countByStatus": {
+            "VIGENTE": 185,
+            "DESFASADA": 9,
+            "DEROGADA": 6,
+            "ERRÓNEA": 13
+          }
         },
         {
           "id": "81",
           "isGeneral": false,
-          "count": 146
+          "count": 146,
+          "countByStatus": {
+            "VIGENTE": 133,
+            "DESFASADA": 7,
+            "DEROGADA": 0,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "82",
           "isGeneral": false,
-          "count": 35
+          "count": 35,
+          "countByStatus": {
+            "VIGENTE": 26,
+            "DESFASADA": 5,
+            "DEROGADA": 2,
+            "ERRÓNEA": 2
+          }
         },
         {
           "id": "83",
           "isGeneral": false,
-          "count": 100
+          "count": 100,
+          "countByStatus": {
+            "VIGENTE": 94,
+            "DESFASADA": 2,
+            "DEROGADA": 1,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "84",
           "isGeneral": false,
-          "count": 70
+          "count": 70,
+          "countByStatus": {
+            "VIGENTE": 61,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 9
+          }
         },
         {
           "id": "85",
           "isGeneral": false,
-          "count": 66
+          "count": 66,
+          "countByStatus": {
+            "VIGENTE": 53,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 12
+          }
         }
       ]
     },
@@ -478,116 +1024,254 @@
       "slug": "b3",
       "name": "Bloque B3 — Sistemas y Comunicaciones",
       "count": 2947,
+      "countByStatus": {
+        "VIGENTE": 2611,
+        "DESFASADA": 79,
+        "DEROGADA": 10,
+        "ERRÓNEA": 247
+      },
       "topics": [
         {
           "id": "86",
           "isGeneral": false,
-          "count": 175
+          "count": 175,
+          "countByStatus": {
+            "VIGENTE": 160,
+            "DESFASADA": 3,
+            "DEROGADA": 0,
+            "ERRÓNEA": 12
+          }
         },
         {
           "id": "87",
           "isGeneral": false,
-          "count": 58
+          "count": 58,
+          "countByStatus": {
+            "VIGENTE": 54,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "88",
           "isGeneral": false,
-          "count": 222
+          "count": 222,
+          "countByStatus": {
+            "VIGENTE": 206,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 14
+          }
         },
         {
           "id": "89",
           "isGeneral": false,
-          "count": 284
+          "count": 284,
+          "countByStatus": {
+            "VIGENTE": 261,
+            "DESFASADA": 4,
+            "DEROGADA": 0,
+            "ERRÓNEA": 19
+          }
         },
         {
           "id": "90",
           "isGeneral": false,
-          "count": 144
+          "count": 144,
+          "countByStatus": {
+            "VIGENTE": 132,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 12
+          }
         },
         {
           "id": "91",
           "isGeneral": false,
-          "count": 15
+          "count": 15,
+          "countByStatus": {
+            "VIGENTE": 14,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 1
+          }
         },
         {
           "id": "92",
           "isGeneral": false,
-          "count": 145
+          "count": 145,
+          "countByStatus": {
+            "VIGENTE": 134,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 10
+          }
         },
         {
           "id": "93",
           "isGeneral": false,
-          "count": 152
+          "count": 152,
+          "countByStatus": {
+            "VIGENTE": 137,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 13
+          }
         },
         {
           "id": "94",
           "isGeneral": false,
-          "count": 58
+          "count": 58,
+          "countByStatus": {
+            "VIGENTE": 47,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 11
+          }
         },
         {
           "id": "95",
           "isGeneral": false,
-          "count": 459
+          "count": 459,
+          "countByStatus": {
+            "VIGENTE": 414,
+            "DESFASADA": 5,
+            "DEROGADA": 1,
+            "ERRÓNEA": 39
+          }
         },
         {
           "id": "96",
           "isGeneral": false,
-          "count": 180
+          "count": 180,
+          "countByStatus": {
+            "VIGENTE": 152,
+            "DESFASADA": 7,
+            "DEROGADA": 4,
+            "ERRÓNEA": 17
+          }
         },
         {
           "id": "97",
           "isGeneral": false,
-          "count": 44
+          "count": 44,
+          "countByStatus": {
+            "VIGENTE": 44,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 0
+          }
         },
         {
           "id": "98",
           "isGeneral": false,
-          "count": 143
+          "count": 143,
+          "countByStatus": {
+            "VIGENTE": 116,
+            "DESFASADA": 6,
+            "DEROGADA": 0,
+            "ERRÓNEA": 21
+          }
         },
         {
           "id": "99",
           "isGeneral": false,
-          "count": 104
+          "count": 104,
+          "countByStatus": {
+            "VIGENTE": 92,
+            "DESFASADA": 3,
+            "DEROGADA": 0,
+            "ERRÓNEA": 9
+          }
         },
         {
           "id": "100",
           "isGeneral": false,
-          "count": 40
+          "count": 40,
+          "countByStatus": {
+            "VIGENTE": 38,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 2
+          }
         },
         {
           "id": "101",
           "isGeneral": false,
-          "count": 64
+          "count": 64,
+          "countByStatus": {
+            "VIGENTE": 54,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 8
+          }
         },
         {
           "id": "102",
           "isGeneral": false,
-          "count": 91
+          "count": 91,
+          "countByStatus": {
+            "VIGENTE": 75,
+            "DESFASADA": 4,
+            "DEROGADA": 0,
+            "ERRÓNEA": 12
+          }
         },
         {
           "id": "103",
           "isGeneral": false,
-          "count": 118
+          "count": 118,
+          "countByStatus": {
+            "VIGENTE": 82,
+            "DESFASADA": 27,
+            "DEROGADA": 4,
+            "ERRÓNEA": 5
+          }
         },
         {
           "id": "104",
           "isGeneral": false,
-          "count": 87
+          "count": 87,
+          "countByStatus": {
+            "VIGENTE": 82,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 3
+          }
         },
         {
           "id": "105",
           "isGeneral": false,
-          "count": 64
+          "count": 64,
+          "countByStatus": {
+            "VIGENTE": 59,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 4
+          }
         },
         {
           "id": "106",
           "isGeneral": false,
-          "count": 275
+          "count": 275,
+          "countByStatus": {
+            "VIGENTE": 234,
+            "DESFASADA": 9,
+            "DEROGADA": 1,
+            "ERRÓNEA": 31
+          }
         },
         {
           "id": "107",
           "isGeneral": false,
-          "count": 25
+          "count": 25,
+          "countByStatus": {
+            "VIGENTE": 24,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 1
+          }
         }
       ]
     },
@@ -596,136 +1280,298 @@
       "slug": "b4",
       "name": "Bloque B4 — Seguridad y Auditoría",
       "count": 3462,
+      "countByStatus": {
+        "VIGENTE": 3075,
+        "DESFASADA": 107,
+        "DEROGADA": 22,
+        "ERRÓNEA": 258
+      },
       "topics": [
         {
           "id": "108",
           "isGeneral": false,
-          "count": 229
+          "count": 229,
+          "countByStatus": {
+            "VIGENTE": 214,
+            "DESFASADA": 0,
+            "DEROGADA": 0,
+            "ERRÓNEA": 15
+          }
         },
         {
           "id": "109",
           "isGeneral": false,
-          "count": 163
+          "count": 163,
+          "countByStatus": {
+            "VIGENTE": 140,
+            "DESFASADA": 9,
+            "DEROGADA": 0,
+            "ERRÓNEA": 14
+          }
         },
         {
           "id": "110",
           "isGeneral": false,
-          "count": 182
+          "count": 182,
+          "countByStatus": {
+            "VIGENTE": 159,
+            "DESFASADA": 5,
+            "DEROGADA": 1,
+            "ERRÓNEA": 17
+          }
         },
         {
           "id": "111",
           "isGeneral": false,
-          "count": 200
+          "count": 200,
+          "countByStatus": {
+            "VIGENTE": 182,
+            "DESFASADA": 3,
+            "DEROGADA": 0,
+            "ERRÓNEA": 15
+          }
         },
         {
           "id": "112",
           "isGeneral": false,
-          "count": 98
+          "count": 98,
+          "countByStatus": {
+            "VIGENTE": 89,
+            "DESFASADA": 4,
+            "DEROGADA": 0,
+            "ERRÓNEA": 5
+          }
         },
         {
           "id": "113",
           "isGeneral": false,
-          "count": 129
+          "count": 129,
+          "countByStatus": {
+            "VIGENTE": 121,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "114",
           "isGeneral": false,
-          "count": 238
+          "count": 238,
+          "countByStatus": {
+            "VIGENTE": 206,
+            "DESFASADA": 8,
+            "DEROGADA": 0,
+            "ERRÓNEA": 24
+          }
         },
         {
           "id": "115",
           "isGeneral": false,
-          "count": 353
+          "count": 353,
+          "countByStatus": {
+            "VIGENTE": 311,
+            "DESFASADA": 4,
+            "DEROGADA": 0,
+            "ERRÓNEA": 38
+          }
         },
         {
           "id": "116",
           "isGeneral": false,
-          "count": 98
+          "count": 98,
+          "countByStatus": {
+            "VIGENTE": 85,
+            "DESFASADA": 2,
+            "DEROGADA": 1,
+            "ERRÓNEA": 10
+          }
         },
         {
           "id": "117",
           "isGeneral": false,
-          "count": 71
+          "count": 71,
+          "countByStatus": {
+            "VIGENTE": 60,
+            "DESFASADA": 5,
+            "DEROGADA": 0,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "118",
           "isGeneral": false,
-          "count": 238
+          "count": 238,
+          "countByStatus": {
+            "VIGENTE": 222,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 14
+          }
         },
         {
           "id": "119",
           "isGeneral": false,
-          "count": 55
+          "count": 55,
+          "countByStatus": {
+            "VIGENTE": 43,
+            "DESFASADA": 4,
+            "DEROGADA": 0,
+            "ERRÓNEA": 8
+          }
         },
         {
           "id": "120",
           "isGeneral": false,
-          "count": 140
+          "count": 140,
+          "countByStatus": {
+            "VIGENTE": 123,
+            "DESFASADA": 7,
+            "DEROGADA": 1,
+            "ERRÓNEA": 9
+          }
         },
         {
           "id": "121",
           "isGeneral": false,
-          "count": 73
+          "count": 73,
+          "countByStatus": {
+            "VIGENTE": 62,
+            "DESFASADA": 5,
+            "DEROGADA": 2,
+            "ERRÓNEA": 4
+          }
         },
         {
           "id": "122",
           "isGeneral": false,
-          "count": 109
+          "count": 109,
+          "countByStatus": {
+            "VIGENTE": 100,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 7
+          }
         },
         {
           "id": "123",
           "isGeneral": false,
-          "count": 218
+          "count": 218,
+          "countByStatus": {
+            "VIGENTE": 190,
+            "DESFASADA": 11,
+            "DEROGADA": 0,
+            "ERRÓNEA": 17
+          }
         },
         {
           "id": "124",
           "isGeneral": false,
-          "count": 47
+          "count": 47,
+          "countByStatus": {
+            "VIGENTE": 45,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 1
+          }
         },
         {
           "id": "125",
           "isGeneral": false,
-          "count": 188
+          "count": 188,
+          "countByStatus": {
+            "VIGENTE": 169,
+            "DESFASADA": 5,
+            "DEROGADA": 0,
+            "ERRÓNEA": 14
+          }
         },
         {
           "id": "126",
           "isGeneral": false,
-          "count": 145
+          "count": 145,
+          "countByStatus": {
+            "VIGENTE": 135,
+            "DESFASADA": 4,
+            "DEROGADA": 0,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "127",
           "isGeneral": false,
-          "count": 46
+          "count": 46,
+          "countByStatus": {
+            "VIGENTE": 36,
+            "DESFASADA": 3,
+            "DEROGADA": 5,
+            "ERRÓNEA": 2
+          }
         },
         {
           "id": "128",
           "isGeneral": false,
-          "count": 92
+          "count": 92,
+          "countByStatus": {
+            "VIGENTE": 80,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 10
+          }
         },
         {
           "id": "129",
           "isGeneral": false,
-          "count": 24
+          "count": 24,
+          "countByStatus": {
+            "VIGENTE": 20,
+            "DESFASADA": 2,
+            "DEROGADA": 2,
+            "ERRÓNEA": 0
+          }
         },
         {
           "id": "130",
           "isGeneral": false,
-          "count": 87
+          "count": 87,
+          "countByStatus": {
+            "VIGENTE": 82,
+            "DESFASADA": 1,
+            "DEROGADA": 0,
+            "ERRÓNEA": 4
+          }
         },
         {
           "id": "131",
           "isGeneral": false,
-          "count": 70
+          "count": 70,
+          "countByStatus": {
+            "VIGENTE": 62,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 6
+          }
         },
         {
           "id": "132",
           "isGeneral": false,
-          "count": 88
+          "count": 88,
+          "countByStatus": {
+            "VIGENTE": 82,
+            "DESFASADA": 2,
+            "DEROGADA": 0,
+            "ERRÓNEA": 4
+          }
         },
         {
           "id": "133",
           "isGeneral": false,
-          "count": 81
+          "count": 81,
+          "countByStatus": {
+            "VIGENTE": 57,
+            "DESFASADA": 12,
+            "DEROGADA": 10,
+            "ERRÓNEA": 2
+          }
         }
       ]
     }
@@ -733,87 +1579,213 @@
   "years": [
     {
       "id": "2001",
-      "count": 5
+      "count": 5,
+      "countByStatus": {
+        "VIGENTE": 5,
+        "DESFASADA": 0,
+        "DEROGADA": 0,
+        "ERRÓNEA": 0
+      }
     },
     {
       "id": "2002",
-      "count": 1800
+      "count": 1800,
+      "countByStatus": {
+        "VIGENTE": 1631,
+        "DESFASADA": 44,
+        "DEROGADA": 9,
+        "ERRÓNEA": 116
+      }
     },
     {
       "id": "2003",
-      "count": 750
+      "count": 750,
+      "countByStatus": {
+        "VIGENTE": 668,
+        "DESFASADA": 20,
+        "DEROGADA": 7,
+        "ERRÓNEA": 55
+      }
     },
     {
       "id": "2004",
-      "count": 323
+      "count": 323,
+      "countByStatus": {
+        "VIGENTE": 282,
+        "DESFASADA": 10,
+        "DEROGADA": 1,
+        "ERRÓNEA": 30
+      }
     },
     {
       "id": "2005",
-      "count": 14
+      "count": 14,
+      "countByStatus": {
+        "VIGENTE": 14,
+        "DESFASADA": 0,
+        "DEROGADA": 0,
+        "ERRÓNEA": 0
+      }
     },
     {
       "id": "2006",
-      "count": 531
+      "count": 531,
+      "countByStatus": {
+        "VIGENTE": 449,
+        "DESFASADA": 25,
+        "DEROGADA": 3,
+        "ERRÓNEA": 54
+      }
     },
     {
       "id": "2007",
-      "count": 453
+      "count": 453,
+      "countByStatus": {
+        "VIGENTE": 395,
+        "DESFASADA": 23,
+        "DEROGADA": 3,
+        "ERRÓNEA": 32
+      }
     },
     {
       "id": "2009",
-      "count": 162
+      "count": 162,
+      "countByStatus": {
+        "VIGENTE": 139,
+        "DESFASADA": 7,
+        "DEROGADA": 4,
+        "ERRÓNEA": 12
+      }
     },
     {
       "id": "2010",
-      "count": 871
+      "count": 871,
+      "countByStatus": {
+        "VIGENTE": 743,
+        "DESFASADA": 41,
+        "DEROGADA": 13,
+        "ERRÓNEA": 74
+      }
     },
     {
       "id": "2011",
-      "count": 588
+      "count": 588,
+      "countByStatus": {
+        "VIGENTE": 522,
+        "DESFASADA": 17,
+        "DEROGADA": 3,
+        "ERRÓNEA": 46
+      }
     },
     {
       "id": "2012",
-      "count": 1
+      "count": 1,
+      "countByStatus": {
+        "VIGENTE": 1,
+        "DESFASADA": 0,
+        "DEROGADA": 0,
+        "ERRÓNEA": 0
+      }
     },
     {
       "id": "2013",
-      "count": 382
+      "count": 382,
+      "countByStatus": {
+        "VIGENTE": 322,
+        "DESFASADA": 16,
+        "DEROGADA": 1,
+        "ERRÓNEA": 43
+      }
     },
     {
       "id": "2014",
-      "count": 673
+      "count": 673,
+      "countByStatus": {
+        "VIGENTE": 598,
+        "DESFASADA": 21,
+        "DEROGADA": 5,
+        "ERRÓNEA": 49
+      }
     },
     {
       "id": "2015",
-      "count": 954
+      "count": 954,
+      "countByStatus": {
+        "VIGENTE": 790,
+        "DESFASADA": 68,
+        "DEROGADA": 21,
+        "ERRÓNEA": 75
+      }
     },
     {
       "id": "2016",
-      "count": 1620
+      "count": 1620,
+      "countByStatus": {
+        "VIGENTE": 1402,
+        "DESFASADA": 79,
+        "DEROGADA": 31,
+        "ERRÓNEA": 108
+      }
     },
     {
       "id": "2018",
-      "count": 39
+      "count": 39,
+      "countByStatus": {
+        "VIGENTE": 33,
+        "DESFASADA": 1,
+        "DEROGADA": 0,
+        "ERRÓNEA": 5
+      }
     },
     {
       "id": "2019",
-      "count": 698
+      "count": 698,
+      "countByStatus": {
+        "VIGENTE": 599,
+        "DESFASADA": 54,
+        "DEROGADA": 12,
+        "ERRÓNEA": 33
+      }
     },
     {
       "id": "2020",
-      "count": 1644
+      "count": 1644,
+      "countByStatus": {
+        "VIGENTE": 1383,
+        "DESFASADA": 72,
+        "DEROGADA": 29,
+        "ERRÓNEA": 160
+      }
     },
     {
       "id": "2021",
-      "count": 1805
+      "count": 1805,
+      "countByStatus": {
+        "VIGENTE": 1619,
+        "DESFASADA": 62,
+        "DEROGADA": 27,
+        "ERRÓNEA": 97
+      }
     },
     {
       "id": "2023",
-      "count": 1560
+      "count": 1560,
+      "countByStatus": {
+        "VIGENTE": 1364,
+        "DESFASADA": 70,
+        "DEROGADA": 19,
+        "ERRÓNEA": 107
+      }
     },
     {
       "id": "2024",
-      "count": 782
+      "count": 782,
+      "countByStatus": {
+        "VIGENTE": 708,
+        "DESFASADA": 23,
+        "DEROGADA": 9,
+        "ERRÓNEA": 42
+      }
     }
   ],
   "totals": {
