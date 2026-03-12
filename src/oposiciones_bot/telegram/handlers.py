@@ -8,6 +8,12 @@ from telegram.ext import ContextTypes
 from oposiciones_bot.config import get_settings
 from oposiciones_bot.infrastructure import augment_question
 
+HELP_COMMANDS = {
+    "start": "Inicia el bot y muestra un mensaje de bienvenida.",
+    "siguiente": "Lanza la siguiente pregunta.",
+    "ayuda": "Muestra la ayuda del bot.",
+}
+
 
 async def explain_question(
     update: Update, context: ContextTypes.DEFAULT_TYPE, pick: str
@@ -18,7 +24,7 @@ async def explain_question(
     db = context.bot_data["database"]
     cached = db.get_explanation(pick)
     if cached is None:
-        question = context.bot_data["questions"][pick]
+        question = context.bot_data["questions"].questions_by_id[pick]
         draft_id = uuid.uuid4().int & (1 << 64) - 1
 
         full_text = f"<b>Explicación ({pick})</b>:\n"
@@ -42,9 +48,34 @@ async def start_command(
         return
 
     if update.effective_chat.id in get_settings().telegram.allowed_ids:
+        await update.effective_message.reply_html(
+            "¡Bienvenido al bot de preguntas de oposiciones!\n"
+            "¿Estás preparad@ para iniciar esta aventura de opositar?\n"
+            "Si es así, pulsa el botón de abajo 👇 para embarcarte en "
+            "esta aventura.",
+            reply_markup=InlineKeyboardMarkup(
+                [
+                    [
+                        InlineKeyboardButton(
+                            "¡Estoy preparado! 😎",
+                            callback_data="next_question",
+                        )
+                    ]
+                ]
+            ),
+        )
+
+
+async def next_question_command(
+    update: Update, context: ContextTypes.DEFAULT_TYPE
+) -> None:
+    if update.effective_message is None or update.effective_chat is None:
+        return
+
+    if update.effective_chat.id in get_settings().telegram.allowed_ids:
         await update.effective_message.reply_chat_action(ChatAction.TYPING)
 
-        questions = context.bot_data["questions"]
+        questions = context.bot_data["questions"].questions_by_id
         pick = random.choice(list(questions))
         question = questions[pick]
 
@@ -76,6 +107,20 @@ async def start_command(
         )
 
 
+async def help_command(
+    update: Update, context: ContextTypes.DEFAULT_TYPE
+) -> None:
+    if update.effective_message is None or update.effective_chat is None:
+        return
+
+    if update.effective_chat.id in get_settings().telegram.allowed_ids:
+        message = ["Aquí tienes los comandos disponibles:\n\n"]
+        for command, description in HELP_COMMANDS.items():
+            message.append(f"/{command} - {description}\n")
+
+        await update.effective_message.reply_html("".join(message))
+
+
 async def process_callback(
     update: Update, context: ContextTypes.DEFAULT_TYPE
 ) -> None:
@@ -88,4 +133,4 @@ async def process_callback(
         case data if data.startswith("explain_"):
             await explain_question(update, context, data.split("_")[1])
         case _:
-            await start_command(update, context)
+            await next_question_command(update, context)

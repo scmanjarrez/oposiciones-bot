@@ -1,3 +1,5 @@
+"""Infrastructure layer for the oposiciones bot."""
+
 from oposiciones_bot.infrastructure.database import Database
 from oposiciones_bot.infrastructure.gemini import augment_question
 

@@ -1,3 +1,5 @@
+"""Domain layer for the oposiciones bot."""
+
 from oposiciones_bot.domain.schemas import (
     FormattedGenAI,
     FormattedMessage,

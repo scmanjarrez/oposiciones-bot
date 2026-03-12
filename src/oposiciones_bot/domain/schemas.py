@@ -2,6 +2,8 @@ import json
 from dataclasses import dataclass
 from typing import Any, Literal
 
+GENERAL_TOPICS = range(1, 28)
+
 
 @dataclass
 class FormattedMessage:
@@ -46,6 +48,11 @@ class Question:
 
     def format_message(self) -> FormattedMessage:
         message = [self.format_question()]
+        message.append(f"\n<b>Tema</b>: {self.topic} ({self.block})\n")
+        message.append(f"<b>Año</b>: {self.year}\n")
+        if self.comments:
+            message.append(f"<b>Comentarios</b>: {self.comments}\n")
+
         message.append(f"\n<b>Estado</b>: {self.status}\n")
 
         explanation = None
@@ -91,7 +98,29 @@ class Question:
         )
 
 
-def load_questions(path: str) -> dict[str, Question]:
+@dataclass
+class QuestionDatabase:
+    questions_by_id: dict[str, Question]
+    questions_general: list[Question]
+    questions_specific: list[Question]
+
+
+def load_questions(path: str) -> QuestionDatabase:
     with open(path) as f:
         data = json.load(f)
-    return {k: Question.from_dict(v) for k, v in data.items()}
+
+    questions_all = {k: Question.from_dict(v) for k, v in data.items()}
+
+    questions_general: list[Question] = []
+    questions_specific: list[Question] = []
+    for question in questions_all.values():
+        if int(question.topic) in GENERAL_TOPICS:
+            questions_general.append(question)
+        else:
+            questions_specific.append(question)
+
+    return QuestionDatabase(
+        questions_by_id=questions_all,
+        questions_general=questions_general,
+        questions_specific=questions_specific,
+    )
