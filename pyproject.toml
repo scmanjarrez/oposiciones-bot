@@ -1,0 +1,18 @@
+[project]
+name = "oposiciones-bot"
+version = "0.1.0"
+description = " Bot de telegram con preguntas de preparatic aumentadas con IA"
+readme = "README.md"
+authors = [{ name = "scmanjarrez", email = "serchiman@gmail.com" }]
+requires-python = ">=3.12"
+dependencies = ["google-genai>=1.66.0", "python-telegram-bot>=22.6"]
+
+[project.scripts]
+oposiciones_bot = "oposiciones_bot.__main__:main"
+
+[build-system]
+requires = ["uv_build>=0.10.9,<0.11.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = ["chompjs>=1.4.0", "tqdm>=4.67.3"]

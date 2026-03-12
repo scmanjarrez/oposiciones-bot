@@ -1,5 +1,5 @@
 [telegram]
-token_prod = "token" # Token de autenticación para el bot de Telegram
+token = "token" # Token de autenticación para el bot de Telegram
 allowed_ids = [
   1,
   2,
@@ -7,4 +7,7 @@ allowed_ids = [
 ] # Lista de IDs de usuarios permitidos a interactuar con el bot
 
 [gemini]
-token_paid = "token" # Token de autenticación para la API de Gemini
+token = "token"                # Token de autenticación para la API de Gemini
+model = "model"                # Modelo a utilizar para la API de Gemini
+google-search-grounding = true # Habilitar el grounding de búsqueda de Google
+thinking-level = "low"         # Nivel de pensamiento para la API de Gemini
